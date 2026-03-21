@@ -1,8 +1,6 @@
 fastapi==0.104.1
 uvicorn==0.24.0
 python-multipart==0.0.6
-torch==2.6.0
-torchvision
 Pillow
 open-clip-torch==2.23.0
 pymilvus==2.3.3
