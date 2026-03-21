@@ -34,7 +34,14 @@ RUN apt-get update \
 COPY requirements.txt .
 RUN pip install --upgrade pip --no-cache-dir \
     && pip install --no-cache-dir -r requirements.txt
+# 4. Copy file cấu hình thư viện vào
+COPY requirements.txt .
 
+# 5. ÉP CÀI BẢN PYTORCH CPU SIÊU NHẸ (Bí quyết giảm 3GB xuống 150MB)
+RUN pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+# 6. Sau đó mới cài các thư viện còn lại
+RUN pip install --no-cache-dir -r requirements.txt
 # -----------------------------------------------------------
 # Copy source code (sau cùng để layer cache hiệu quả nhất)
 # .dockerignore sẽ loại bỏ .env, data/models/, *.zip, .venv
