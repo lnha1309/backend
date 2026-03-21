@@ -186,5 +186,12 @@ async def get_tour_guide_data(file: UploadFile = File(...)):
             }
         }
         
+    except HTTPException as e:
+        # NẾU là lỗi do mình chủ động raise (400, 404, 500 tự tạo), thì cứ trả y nguyên về
+        raise e
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        # NẾU là lỗi bất ngờ (code crash, NoneType, v.v.), mới ép về 500 cùng log
+        print(f"🔥 LỖI CHƯA XÁC ĐỊNH: {e}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=f"Lỗi Server: {str(e)}")
