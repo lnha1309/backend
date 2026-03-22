@@ -49,14 +49,18 @@ async def lifespan(app: FastAPI):
         print(f"⚠️  Zilliz init failed: {e}")
 
     # Load JSON data
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    
+    # Nối đường dẫn tới file JSON (Sửa chữ 'data' thành tên thư mục của bạn nếu có)
+    # Nếu file JSON nằm cùng chỗ với main.py, cứ để tên file thôi.
+    json_path = os.path.join(BASE_DIR, "hcm_landmarks_augmented.json") 
+    
     try:
-        with open("hcm_landmarks_augmented.json", "r", encoding="utf-8") as f:
+        with open(json_path, "r", encoding="utf-8") as f:
             landmarks_db = {item["id"]: item for item in json.load(f)}
-        print(f"✅ Đã tải JSON: {len(landmarks_db)} địa danh.")
-    except FileNotFoundError:
-        print("⚠️  hcm_landmarks_augmented.json not found — chạy scripts/merge_data.py trước")
+        print(f"✅ Đã tải thành công {len(landmarks_db)} địa danh từ: {json_path}")
     except Exception as e:
-        print(f"⚠️  Lỗi tải JSON: {e}")
+        print(f"❌ LỖI NGHIÊM TRỌNG: Không tìm thấy file JSON tại {json_path}. Chi tiết: {e}")
 
     # Load CLIP Model (graceful — không crash nếu thiếu driver)
     try:
