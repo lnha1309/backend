@@ -1,0 +1,356 @@
+[
+  {
+    "id": "hcm_independence_palace",
+    "name": "Independence Palace",
+    "city": "HCMC",
+    "lat": 10.777,
+    "lng": 106.6953,
+    "vision_tags": [
+      "white modernist architecture",
+      "arranged in Chinese character shape",
+      "large iron gate",
+      "semicircular pond with fountain",
+      "expansive lush green lawn",
+      "national flag on the roof",
+      "stone facade with geometric patterns",
+      "tank number 390 replica"
+    ],
+    "context_docs": [
+      {
+        "title": "History of Independence Palace",
+        "source_url": "https://dinhdoclap.gov.vn/lich-su-dinh-doc-lap/",
+        "content": "Independence Palace, a symbol of power often compared to the 'White House' of the former South Vietnam. Construction began in 1962 on the site of the old Norodom Palace... Today, it is not only a special national monument with a solid underground bunker system and luxurious reception rooms, but also a venue for important diplomatic events."
+      }
+    ]
+  },
+  {
+    "id": "hcm_dragon_wharf",
+    "name": "Dragon Wharf",
+    "city": "HCMC",
+    "lat": 10.7684,
+    "lng": 106.7067,
+    "vision_tags": [
+      "French colonial building",
+      "two porcelain dragons on the roof",
+      "moon shape on the roof",
+      "horse head badge",
+      "anchor on the ground",
+      "located by the Saigon river",
+      "Ho Chi Minh statue in the courtyard",
+      "red brick roof"
+    ],
+    "context_docs": [
+      {
+        "title": "History of Dragon Wharf",
+        "source_url": "https://vi.wikipedia.org/wiki/B%E1%BA%BFn_Nh%C3%A0_R%E1%BB%93ng",
+        "content": "Dragon Wharf was conceptualized and built between 1863 and 1864, originally serving as the headquarters for the French shipping company Messageries Maritimes. Its characteristic architecture features two dragons on the roof... Since 1975, this monument complex has been developed into the Ho Chi Minh Memorial Area."
+      }
+    ]
+  },
+  {
+    "id": "hcm_notre_dame_cathedral",
+    "name": "Notre-Dame Cathedral Basilica of Saigon",
+    "city": "HCMC",
+    "lat": 10.7798,
+    "lng": 106.6991,
+    "vision_tags": [
+      "statue of Our Lady of Peace",
+      "2 characteristic red square towers",
+      "red brick facade",
+      "front square with walking pigeons",
+      "tall iron spires and bell towers",
+      "Romanesque and Gothic architecture",
+      "rose window",
+      "surrounded by city traffic"
+    ],
+    "context_docs": [
+      {
+        "title": "History of Notre-Dame Cathedral",
+        "source_url": "https://www.luavietours.com/tin-tuc/nha-tho-duc-ba-paris-phap/",
+        "content": "Notre-Dame Cathedral Basilica of Saigon stands tall as a masterpiece of Romanesque and Gothic architecture, serving as an irreplaceable religious and cultural symbol of the city since construction began in 1877... this cathedral remains a 'precious gem' that captures the flow of time and the soul of Saigon across generations."
+      }
+    ]
+  },
+  {
+    "id": "hcm_fine_arts_museum",
+    "name": "Ho Chi Minh City Fine Arts Museum",
+    "city": "HCMC",
+    "lat": 10.7694,
+    "lng": 106.6992,
+    "vision_tags": [
+      "3 yellow buildings",
+      "small tower on the roof",
+      "Art Deco architecture",
+      "many large windows and balconies",
+      "corridors with vintage ceramic tiles",
+      "wrought iron elevator",
+      "stained glass windows",
+      "spiral staircase"
+    ],
+    "context_docs": [
+      {
+        "title": "Ho Chi Minh City Fine Arts Museum",
+        "source_url": "https://vinwonders.com/vi/wonderpedia/news/bao-tang-my-thuat-thanh-pho-ho-chi-minh/",
+        "content": "The Ho Chi Minh City Fine Arts Museum is a must-visit destination, formerly the magnificent residence of Hua Bon Hoa... Today, with a massive collection of over 22,000 artifacts, this heritage space not only preserves aesthetic values but also tells a vivid story of the development of Southern fine arts."
+      }
+    ]
+  },
+  {
+    "id": "hcm_war_remnants_museum",
+    "name": "War Remnants Museum",
+    "city": "HCMC",
+    "lat": 10.7792,
+    "lng": 106.6925,
+    "vision_tags": [
+      "military aircraft and helicopters on display",
+      "F-11 airplane",
+      "captured military tanks",
+      "French guillotine replica",
+      "gray modern building",
+      "outdoor exhibition of artillery shells",
+      "tiger cages prison replica",
+      "large entrance gate"
+    ],
+    "context_docs": [
+      {
+        "title": "History of War Remnants Museum",
+        "source_url": "https://baotangchungtichchientranh.vn/vi/trung-bay-va-su-kien/trung-bay/nhung-su-that-lich-su",
+        "content": "The War Remnants Museum serves as a deeply authentic 'visual diary' of the Vietnamese people's resistance war against America... Rising above the pain, the museum today has become a symbol of a peace-loving spirit, reminding the world of the value of reconciliation and the powerful rebirth of a nation from the ashes of war."
+      }
+    ]
+  },
+  {
+    "id": "hcm_ben_thanh_market",
+    "name": "Ben Thanh Market",
+    "city": "HCMC",
+    "lat": 10.7725,
+    "lng": 106.6981,
+    "vision_tags": [
+      "large iconic clock tower gate",
+      "4-corner domed roof",
+      "yellow building facade",
+      "bustling indoor market",
+      "textile and souvenir stalls",
+      "large roundabout in front",
+      "red tile roof",
+      "multiple entrance gates with text"
+    ],
+    "context_docs": [
+      {
+        "title": "History of Ben Thanh Market",
+        "source_url": "https://kienthuc.net.vn/lich-su-cho-ben-thanh-tu-luc-chi-la-bai-sinh-lay-hoang-vang-post737246.html",
+        "content": "The vibrant symbol known today as Ben Thanh Market once had a humble beginning along the banks of Cho Vai canal... Since that historic milestone, the name Ben Thanh has been associated with the new market and its famous four-faced clock tower."
+      }
+    ]
+  },
+  {
+    "id": "hcm_bitexco_financial_tower",
+    "name": "Bitexco Financial Tower",
+    "city": "HCMC",
+    "lat": 10.7715,
+    "lng": 106.7042,
+    "vision_tags": [
+      "tall skyscraper",
+      "lotus bud shape",
+      "helipad jutting out",
+      "surrounding glass curtain wall system",
+      "modern high-tech architecture",
+      "viewing deck at the top",
+      "towering over surrounding buildings"
+    ],
+    "context_docs": [
+      {
+        "title": "History of Bitexco Financial Tower",
+        "source_url": "http://www.bitexcofinancialtower.com/?page_id=1547&lang=vi",
+        "content": "Bitexco Financial Tower is a symbol of the rapid economic development of Ho Chi Minh City, with a design inspired by the shape of a lotus bud... With unique architecture featuring a helipad resembling an opening lotus blossom, the tower is not only a world-class structure but also a testament to the creativity and towering vision of the city."
+      }
+    ]
+  },
+  {
+    "id": "hcm_saigon_central_post_office",
+    "name": "Saigon Central Post Office",
+    "city": "HCMC",
+    "lat": 10.7799,
+    "lng": 106.6999,
+    "vision_tags": [
+      "yellow colonial facade",
+      "giant clock above the main entrance",
+      "rows of symmetrical windows and balconies",
+      "iron arch and steel column interior system",
+      "large portrait of Ho Chi Minh inside",
+      "vintage wooden telephone booths",
+      "arched interior ceiling",
+      "painted maps on the indoor walls"
+    ],
+    "context_docs": [
+      {
+        "title": "History of Saigon Central Post Office",
+        "source_url": "https://vi.wikipedia.org/wiki/B%C6%B0u_%C4%91i%E1%BB%87n_S%C3%A0i_G%C3%B2n",
+        "content": "Saigon Central Post Office (formerly the Saigon Telegraph Office) was initiated by the French on November 11, 1860... After over 130 years of history, with a major renovation in 2014, the building is now not only a postal center but also an iconic architectural monument and a famous tourist attraction in Ho Chi Minh City."
+      }
+    ]
+  },
+  {
+    "id": "hcm_nguyen_hue_walking_street",
+    "name": "Nguyen Hue Walking Street",
+    "city": "HCMC",
+    "lat": 10.7744,
+    "lng": 106.7032,
+    "vision_tags": [
+      "wide pedestrian promenade",
+      "Ho Chi Minh Monument statue",
+      "City People's Committee Headquarters in the background",
+      "42 Nguyen Hue Cafe Apartment Building",
+      "floor water fountains",
+      "surrounded by tall modern buildings and hotels",
+      "potted trees along the street",
+      "crowds of walking people"
+    ],
+    "context_docs": [
+      {
+        "title": "History of Nguyen Hue Walking Street",
+        "source_url": "https://thanhnien.vn/goc-ky-hoa-pho-di-bo-nguyen-hue-185250531212857004.htm",
+        "content": "Nguyen Hue Walking Street began its history as a small canal that was converted into the Cho Vai canal to serve trade... In 1955, the street was officially renamed Nguyen Hue Boulevard, and by 2015, it became Vietnam's first pedestrian street, continuing its tradition as a vital cultural and festive space for the city."
+      }
+    ]
+  },
+  {
+    "id": "hcm_turtle_lake",
+    "name": "Turtle Lake",
+    "city": "HCMC",
+    "lat": 10.7827,
+    "lng": 106.6961,
+    "vision_tags": [
+      "elevated pedestrian bridge over water",
+      "giant stone stele",
+      "flower petal-shaped concrete pillar",
+      "circular water pool",
+      "spiral stairs",
+      "traffic roundabout",
+      "surrounded by green trees and cafes"
+    ],
+    "context_docs": [
+      {
+        "title": "History of Turtle Lake",
+        "source_url": "https://www.ivivu.com/blog/2022/10/nhung-dieu-co-the-ban-chua-biet-ve-ho-con-rua-sai-gon/",
+        "content": "Turtle Lake originated in 1790, originally located at the Kham Khuyet gate of the Bat Quai Citadel... Although the turtle statue and the stele were destroyed by an explosion in 1976 (or 1978), the name has been preserved and remains widely used by locals to this day."
+      }
+    ]
+  },
+  {
+    "id": "hcm_thu_ngu_flag_tower",
+    "name": "Thu Ngu Flag Tower",
+    "city": "HCMC",
+    "lat": 10.7714,
+    "lng": 106.7075,
+    "vision_tags": [
+      "tall flagpole",
+      "3-story white structure",
+      "octagonal base",
+      "red tiled roof",
+      "located next to the river",
+      "historical watchtower",
+      "park area surrounding the base"
+    ],
+    "context_docs": [
+      {
+        "title": "History of Thu Ngu Flag Tower",
+        "source_url": "https://thanhnien.vn/cot-co-thu-ngu-156-nam-tuoi-tai-sai-gon-tphcm-khoac-ao-tuoi-moi-1851026127.htm",
+        "content": "The Thu Ngu Flagpole (French name: Mât des Signaux) was built in October 1865 on the old site of the defensive mandarin's mansion... After existing for more than 150 years, the flagpole was classified as a city-level historical monument in 2016 and underwent major restoration in late 2020."
+      }
+    ]
+  },
+  {
+    "id": "hcm_tao_dan_park",
+    "name": "Tao Dan Park",
+    "city": "HCMC",
+    "lat": 10.7758,
+    "lng": 106.6917,
+    "vision_tags": [
+      "Hung Kings Temple architecture",
+      "Po Klong Garai Tower replica",
+      "ancient tall dipterocarp trees",
+      "shady walking paths",
+      "bird singing cafe area",
+      "outdoor exercise equipment",
+      "flower gardens and sculptures"
+    ],
+    "context_docs": [
+      {
+        "title": "History of Tao Dan Park",
+        "source_url": "https://congvientaodan.com/lich-su-cong-vien-tao-dan/",
+        "content": "Tao Dan Park began its history as part of the French Governor General's Palace grounds. In 1869, this area was separated with the official name Jardin de la Ville... Since 1975, it has been named Tao Dan Cultural Park, serving not only as a 'green lung' but also as a vital outdoor cultural, artistic, and recreational space for the residents."
+      }
+    ]
+  },
+  {
+    "id": "hcm_saigon_zoo_and_botanical_gardens",
+    "name": "Saigon Zoo and Botanical Gardens",
+    "city": "HCMC",
+    "lat": 10.7876,
+    "lng": 106.7053,
+    "vision_tags": [
+      "yellow main gate with French architecture",
+      "animal enclosures and cages",
+      "very tall and thick ancient trees",
+      "botanical garden pathways",
+      "elephants and giraffes",
+      "History Museum building inside the grounds",
+      "lush greenery and ponds"
+    ],
+    "context_docs": [
+      {
+        "title": "History of Saigon Zoo and Botanical Gardens",
+        "source_url": "https://vnexpress.net/thao-cam-vien-sai-gon-160-nam-qua-anh-tu-lieu-4724059.html",
+        "content": "Saigon Zoo and Botanical Gardens, originally poetically known as the Botanical Garden, exists as a 'living museum' in the heart of the city... After 1975, this area has continuously transformed, expanding its conservation space to become an invaluable cultural and biodiversity heritage, a peaceful rendezvous connecting the past and the present."
+      }
+    ]
+  },
+  {
+    "id": "hcm_vinh_nghiem_pagoda",
+    "name": "Vinh Nghiem Pagoda",
+    "city": "HCMC",
+    "lat": 10.7934,
+    "lng": 106.6826,
+    "vision_tags": [
+      "7-story stone tower",
+      "traditional Buddhist curved roof architecture",
+      "large Three-door Gate (Tam Quan)",
+      "intricate wooden carvings",
+      "spacious courtyard",
+      "bronze bell",
+      "statues of Buddha",
+      "monks in robes"
+    ],
+    "context_docs": [
+      {
+        "title": "History of Vinh Nghiem Pagoda",
+        "source_url": "https://greenfuture.tech/tin-tuc/chua-vinh-nghiem",
+        "content": "Vinh Nghiem Pagoda was formed from the noble aspiration of two venerable monks... With its curved tiled roofs and wooden columns bearing the distinct traditional mark of the North, the pagoda is not only a symbol of modern Buddhism in the South but also a magical spiritual bridge."
+      }
+    ]
+  },
+  {
+    "id": "hcm_starlight_bridge",
+    "name": "Starlight Bridge",
+    "city": "HCMC",
+    "lat": 10.7285,
+    "lng": 106.7194,
+    "vision_tags": [
+      "crescent-shaped pedestrian bridge",
+      "LED lights on the bridge surface",
+      "color-changing water fountain cascading down",
+      "illuminated brightly at night",
+      "Ban Nguyet (Crescent) lake",
+      "modern park surroundings",
+      "people walking on the bridge"
+    ],
+    "context_docs": [
+      {
+        "title": "History of Starlight Bridge",
+        "source_url": "https://greenfuture.tech/tin-tuc/cau-anh-sao",
+        "content": "Starlight Bridge appears as a brilliantly glowing silk strip in the heart of the Phu My Hung urban area, marking a significant milestone as the first pedestrian bridge in Vietnam during the 2009-2010 period... Not just an engineering masterpiece, it has become a symbol of modern rhythm and a signature romantic rendezvous, where humanity and nature harmonize in light."
+      }
+    ]
+  }
+]
