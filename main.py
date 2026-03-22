@@ -146,9 +146,24 @@ async def get_tour_guide_data(file: UploadFile = File(...)):
             raise HTTPException(status_code=400, detail="Độ tin cậy quá thấp, vui lòng chụp lại.")
 
         # BƯỚC 2: Rút trích lịch sử từ JSON
-        if landmark_id not in landmarks_db:
-            raise HTTPException(status_code=500, detail="Không tìm thấy thông tin trong Database JSON.")
-            
+        # --- ĐOẠN CODE GÀI BẪY ĐỂ XEM DỮ LIỆU ---
+        print(f"🔥 THÁM TỬ: Zilliz vừa trả về ID là: '{landmark_id}' (Kiểu dữ liệu: {type(landmark_id)})")
+        
+        # In ra 3 cái ID đầu tiên đang nằm trong file JSON để đối chiếu
+        sample_keys = list(landmarks_db.keys())[:3]
+        print(f"🔥 THÁM TỬ: Các ID đang có mặt trong JSON gồm: {sample_keys}...")
+
+        # Thử tự động sửa lỗi nếu bị lệch kiểu dữ liệu (Số nguyên vs Chuỗi)
+        if str(landmark_id) in landmarks_db:
+            landmark_id = str(landmark_id)
+            print("✅ Đã tự động sửa lỗi ép kiểu (Số -> Chuỗi) thành công!")
+        elif landmark_id not in landmarks_db:
+            # Nếu vẫn không thấy, báo lỗi rõ ràng ra cho App Flutter
+            raise HTTPException(
+                status_code=500, 
+                detail=f"LỆCH DỮ LIỆU: Zilliz tìm ra ID '{landmark_id}', nhưng file JSON không hề chứa ID này! Các ID trong JSON là: {sample_keys}"
+            )
+        
         info = landmarks_db[landmark_id]
         
         # BƯỚC 3: Sinh nội dung bằng OpenAI
