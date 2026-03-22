@@ -12,6 +12,7 @@ from PIL import Image
 import open_clip
 from pymilvus import MilvusClient
 from openai import AsyncOpenAI
+import traceback 
 
 # 1. TẢI BIẾN MÔI TRƯỜNG TỪ FILE .env
 load_dotenv()
@@ -186,12 +187,14 @@ async def get_tour_guide_data(file: UploadFile = File(...)):
             }
         }
         
-    except HTTPException as e:
-        # NẾU là lỗi do mình chủ động raise (400, 404, 500 tự tạo), thì cứ trả y nguyên về
-        raise e
+    except HTTPException as http_error:
+        # Nếu là lỗi do mình chủ động ném ra (400, 404), thì giữ nguyên ném thẳng về App
+        raise http_error
+        
     except Exception as e:
-        # NẾU là lỗi bất ngờ (code crash, NoneType, v.v.), mới ép về 500 cùng log
-        print(f"🔥 LỖI CHƯA XÁC ĐỊNH: {e}")
-        import traceback
-        traceback.print_exc()
-        raise HTTPException(status_code=500, detail=f"Lỗi Server: {str(e)}")
+        # Nếu là lỗi sập hệ thống không lường trước (500)
+        error_details = traceback.format_exc() # In ra tường tận từ dòng code nào
+        print(f"🔥 LỖI SERVER CHI TIẾT:\n{error_details}") # Dòng này sẽ in thẳng lên Log của Google
+        
+        # Trả về cho Swagger/App biết đích danh tên Lỗi là gì (VD: KeyError, TypeError...)
+        raise HTTPException(status_code=500, detail=f"Lỗi gốc: {type(e).__name__} - {str(e)}")
